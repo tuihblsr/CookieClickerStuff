@@ -28,11 +28,10 @@ Buttons
     name:Sell your candy
     desc:Click me to sell your candy for money!
     on click:
-		$candysell=0
-		$candysell is candy
+		money is (candy * candyworth)
 		candy is 0
-		money is ($candysell * candyworth)
 	end
+	class:bigButton
 
 Resources
 	*candy
