@@ -42,6 +42,7 @@ Resources
 	*candyworth
 		name:hidden resource
 		desc:How much the candy sells for
+		start with:5
 		hidden
 	*money
 		name:Money
