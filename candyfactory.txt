@@ -28,7 +28,22 @@ Buttons
     name:Sell your candy
     desc:Click me to sell your candy for money!
     on click:
-		candysell is candy
+		$candysell=0
+		$candysell is candy
 		candy is 0
-		money is (candysell * candyworth)
+		money is ($candysell * candyworth)
 	end
+
+Resources
+	*candy
+		name:Candy
+		desc:CANDY
+		show earned
+	*candyworth
+		name:hidden resource
+		desc:How much the candy sells for
+		hidden
+	*money
+		name:Money
+		desc:Use this to buy stuff
+		show eaned
