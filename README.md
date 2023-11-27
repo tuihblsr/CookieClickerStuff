@@ -1,1 +1,1 @@
-# CookieClickerMod
+# My Cookie Clicker related projects
