@@ -46,4 +46,4 @@ Resources
 	*money
 		name:Money
 		desc:Use this to buy stuff
-		show eaned
+		show earned
