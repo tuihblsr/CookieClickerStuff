@@ -1,1 +1,30 @@
 Let's make a game!
+  name:Candy Factory
+  desc:Make candy and sell it for profit.
+  created:11/27/2023
+  updated:11/27/2023
+  version:1
+
+Settings
+	building cost increase:115%
+	building cost refund:50%
+
+CSS
+  #game.filtersOn .thing.cantAfford.notOwned
+  {
+    filter:blur(3px);
+  }
+
+Layout
+  use default
+
+Buttons
+  *makeCandy
+    name:Make candy
+    desc:Click me to make some candy!
+    on click:yield 1 candy
+    class:bigButton
+  *sellCandy
+    name:Sell your candy
+    desc:Click me to sell your candy for money!
+    
